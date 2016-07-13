@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?> <Top>
+<Group>
+    <Name>Sales Account</Name>
+    <Under>Primary</Under>
+    <Alias/>
+</Group>
+<Group>
+    <Name>winwin</Name>
+    <Under>Aazad11</Under>
+    <Alias/>
+</Group>
+
+<Ledger>
+    <Name>Anup12</Name>
+    <Under>winwin</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo>0</IncomeTaxNo>
+    <SaleTaxNo>0</SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>chakradhar</Name>
+    <Under>Sales Account</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+
+<StockGroup>
+    <Name>Sudeep Stock Group</Name>
+    <Under>Primary</Under>
+    <Alias/>
+</StockGroup>
+<StockGroup>
+    <Name>Einestine</Name>
+    <Under>Fiama India</Under>
+    <Alias/>
+</StockGroup>
+
+<StockItem>
+    <Name>Bats123</Name>
+    <Under>Sudeep Stock Group</Under>
+    <Alias/>
+    <Length>343.0</Length>
+    <Width>3.0</Width>
+    <thkness>34.0</thkness>
+    <Rate>50.0</Rate>
+    <Unit>Kilo</Unit>
+    <OpeningBalance>100.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>Albert</Name>
+    <Under>Einestine</Under>
+    <Alias/>
+    <Length>0.0</Length>
+    <Width>0.0</Width>
+    <thkness>0.0</thkness>
+    <Rate>0.0</Rate>
+    <Unit>Kilo</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+
+<UnitOfMeasure>
+    <Type>Simple</Type>
+    <Symbol>KG</Symbol>
+    <FormalName>Kilo</FormalName>
+    <NoDecimalPlaces>2</NoDecimalPlaces>
+</UnitOfMeasure>
+
+<Sale>
+    <receiptNo>672</receiptNo>
+    <CashLedger>Anup12</CashLedger>
+    <SaleLedger>chakradhar</SaleLedger>
+    <Date>2013-04-12</Date>
+    <Note> </Note>
+    <DispatchDocNo>125</DispatchDocNo>
+    <DispatchDocThrough>Truck</DispatchDocThrough>
+    <Amount>15000.0</Amount>
+    <VatRate>1.0</VatRate>
+    <VatAmount>150.0</VatAmount>
+    <LessBillAmount>500.0</LessBillAmount>
+    <Transport>500.0</Transport>
+    <FinalAmount>13850.0</FinalAmount>
+
+<StockItemTransaction><StockItemList>
+    <Name>Albert</Name>
+    <length>0.0</length>
+    <Width>0.0</Width>
+    <Thkness>0.0</Thkness>
+    <Quantity>10.0</Quantity>
+    <SqFeet>0.0</SqFeet>
+    <Rate>500.0</Rate>
+    <Amount>7500.0</Amount>
+</StockItemList>
+<StockItemList>
+    <Name>Bats123</Name>
+    <length>343.0</length>
+    <Width>3.0</Width>
+    <Thkness>34.0</Thkness>
+    <Quantity>10.0</Quantity>
+    <SqFeet>0.0</SqFeet>
+    <Rate>1500.0</Rate>
+    <Amount>7500.0</Amount>
+</StockItemList>
+</StockItemTransaction>
+</Sale>
+
+
+
+
+</Top>

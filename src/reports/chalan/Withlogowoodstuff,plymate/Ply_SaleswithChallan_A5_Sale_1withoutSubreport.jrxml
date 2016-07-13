@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!-- Created with iReport - A designer for JasperReports -->
+<!DOCTYPE jasperReport PUBLIC "//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+<jasperReport
+		 name="classic"
+		 columnCount="1"
+		 printOrder="Vertical"
+		 orientation="Portrait"
+		 pageWidth="421"
+		 pageHeight="595"
+		 columnWidth="361"
+		 columnSpacing="0"
+		 leftMargin="30"
+		 rightMargin="30"
+		 topMargin="20"
+		 bottomMargin="20"
+		 whenNoDataType="NoPages"
+		 isFloatColumnFooter="true"
+		 isTitleNewPage="false"
+		 isSummaryNewPage="false">
+	<property name="ireport.scriptlethandling" value="0" />
+	<property name="ireport.encoding" value="UTF-8" />
+	<import value="java.util.*" />
+	<import value="net.sf.jasperreports.engine.*" />
+	<import value="net.sf.jasperreports.engine.data.*" />
+
+	<parameter name="trans_id" isForPrompting="false" class="java.lang.String">
+		<defaultValueExpression ><![CDATA["42"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="subreport1" isForPrompting="false" class="java.lang.String">
+		<defaultValueExpression ><![CDATA[".\\A4_receipt_subreport0.jasper"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="Buyersname" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="Salesname" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="CompanyName" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="CompanyAddress" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="CompanyPhone" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="BillCount" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="AmountChargeable" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="CompanyCST" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="VatTinNo" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="CompanySign" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="CompanyDescription" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="Remarks" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="TermsandConditions" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="SuppliersRef" isForPrompting="false" class="java.lang.Object"/>
+	<parameter name="ModeTermsOfPayment" isForPrompting="false" class="java.lang.Object"/>
+	<parameter name="InVoiceNo." isForPrompting="false" class="java.lang.String"/>
+	<parameter name="trans_date" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="CompanyEmail" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="Declaration" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="SalesTaxPercent" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="KGPerc" isForPrompting="false" class="java.lang.String">
+		<defaultValueExpression ><![CDATA["Kg."]]></defaultValueExpression>
+	</parameter>
+	<parameter name="PercentAmount" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="GrandTotalAmount" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="RoundedOff" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="GodName" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="logo" isForPrompting="false" class="java.io.InputStream"/>
+	<parameter name="propriator" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="subtotal" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="BuyerAddress" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="BuyerTaxNo" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="CustomerVatTin" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="email-id" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="lessbillamount" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="transport" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="dispatchthrough" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="logowoodstuff" isForPrompting="false" class="java.io.InputStream"/>
+	<parameter name="logoplymate" isForPrompting="false" class="java.io.InputStream"/>
+	<queryString><![CDATA[SELECT
+     tblstockitem.`si_name` AS tblstockitem_si_name,
+     tblinventorytransactionitems.`invtrans_qty` AS tblinventorytransactionitems_invtrans_qty,
+     tblinventorytransactionitems.`invtrans_rate` AS tblinventorytransactionitems_invtrans_rate,
+     tblinventorytransactionitems.`invtrans_amount` AS tblinventorytransactionitems_invtrans_amount,
+     tbltransactionmain.`trans_id` AS tbltransactionmain_trans_id,
+     tbltransactionmain.`trans_grandtotal` AS tbltransactionmain_trans_grandtotal,
+     tblstockitem.`si_unitOfMeasure` AS tblstockitem_si_unitOfMeasure,
+     tblunitofmeasure.`uom_symbol` AS tblunitofmeasure_uom_symbol,
+     tblinventorytransactionitems.`invtrans_making` AS tblinventorytransactionitems_invtrans_making
+FROM
+     `tblinventorytransaction` tblinventorytransaction INNER JOIN `tblinventorytransactionitems` tblinventorytransactionitems ON tblinventorytransaction.`invtrans_id` = tblinventorytransactionitems.`invtrans_id`
+     INNER JOIN `tbltransactionmain` tbltransactionmain ON tblinventorytransaction.`trans_id` = tbltransactionmain.`trans_id`
+     INNER JOIN `tblstockitem` tblstockitem ON tblinventorytransactionitems.`invtrans_itemId` = tblstockitem.`si_id`
+     INNER JOIN `tblunitofmeasure` tblunitofmeasure ON tblstockitem.`si_unitOfMeasure` = tblunitofmeasure.`uom_id`
+WHERE
+     tbltransactionmain.`trans_id` = $P{trans_id}]]></queryString>
+
+	<field name="tblstockitem_si_name" class="java.lang.String"/>
+	<field name="tblinventorytransactionitems_invtrans_qty" class="java.math.BigDecimal"/>
+	<field name="tblinventorytransactionitems_invtrans_rate" class="java.math.BigDecimal"/>
+	<field name="tblinventorytransactionitems_invtrans_amount" class="java.math.BigDecimal"/>
+	<field name="tbltransactionmain_trans_id" class="java.lang.Integer"/>
+	<field name="tbltransactionmain_trans_grandtotal" class="java.math.BigDecimal"/>
+	<field name="tblstockitem_si_unitOfMeasure" class="java.lang.Integer"/>
+	<field name="tblunitofmeasure_uom_symbol" class="java.lang.String"/>
+	<field name="tblinventorytransactionitems_invtrans_making" class="java.lang.Double"/>
+
+	<variable name="Count" class="java.lang.Integer" resetType="None" calculation="Count">
+	</variable>
+		<background>
+			<band height="555"  isSplitAllowed="true" >
+				<rectangle>
+					<reportElement
+						x="0"
+						y="0"
+						width="360"
+						height="555"
+						key="rectangle-8"/>
+					<graphicElement stretchType="NoStretch">
+					<pen lineWidth="2.0"/>
+</graphicElement>
+				</rectangle>
+				<line direction="TopDown">
+					<reportElement
+						x="0"
+						y="0"
+						width="1"
+						height="59"
+						key="line-117"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="0"
+						y="5"
+						width="1"
+						height="59"
+						key="line-119"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="0"
+						y="0"
+						width="1"
+						height="59"
+						key="line-120"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="194"
+						y="130"
+						width="1"
+						height="363"
+						forecolor="#999999"
+						key="line-137"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="294"
+						y="130"
+						width="1"
+						height="363"
+						forecolor="#999999"
+						key="line-138"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="246"
+						y="130"
+						width="1"
+						height="363"
+						forecolor="#999999"
+						key="line-139"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<image  evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="22"
+						y="458"
+						width="60"
+						height="24"
+						key="image-2"/>
+					<box></box>
+					<graphicElement stretchType="NoStretch"/>
+					<imageExpression class="java.io.InputStream"><![CDATA[$P{logowoodstuff}]]></imageExpression>
+				</image>
+				<image  evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="82"
+						y="458"
+						width="64"
+						height="25"
+						key="image-3"/>
+					<box></box>
+					<graphicElement stretchType="NoStretch"/>
+					<imageExpression class="java.io.InputStream"><![CDATA[$P{logoplymate}]]></imageExpression>
+				</image>
+				<line direction="TopDown">
+					<reportElement
+						x="22"
+						y="130"
+						width="1"
+						height="363"
+						forecolor="#999999"
+						key="line-140"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="146"
+						y="130"
+						width="1"
+						height="363"
+						forecolor="#999999"
+						key="line-141"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+			</band>
+		</background>
+		<title>
+			<band height="1"  isSplitAllowed="true" >
+			</band>
+		</title>
+		<pageHeader>
+			<band height="130"  isSplitAllowed="true" >
+				<image  hAlign="Center" onErrorType="Blank" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="216"
+						y="6"
+						width="140"
+						height="119"
+						key="image-1"/>
+					<box></box>
+					<graphicElement stretchType="NoStretch"/>
+					<imageExpression class="java.io.InputStream"><![CDATA[$P{logo}]]></imageExpression>
+				</image>
+				<rectangle>
+					<reportElement
+						x="365"
+						y="-41"
+						width="0"
+						height="0"
+						key="rectangle-2"/>
+					<graphicElement stretchType="NoStretch"/>
+				</rectangle>
+				<rectangle>
+					<reportElement
+						x="329"
+						y="-22"
+						width="0"
+						height="0"
+						key="rectangle-5"/>
+					<graphicElement stretchType="NoStretch"/>
+				</rectangle>
+				<rectangle>
+					<reportElement
+						x="339"
+						y="-39"
+						width="0"
+						height="0"
+						key="rectangle-7"/>
+					<graphicElement stretchType="NoStretch"/>
+				</rectangle>
+				<line direction="TopDown">
+					<reportElement
+						x="211"
+						y="0"
+						width="1"
+						height="129"
+						forecolor="#999999"
+						key="line-105"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<staticText>
+					<reportElement
+						x="5"
+						y="31"
+						width="52"
+						height="11"
+						key="staticText-34"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Order No./by :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="5"
+						y="20"
+						width="31"
+						height="11"
+						key="staticText-35"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Date :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="5"
+						y="44"
+						width="31"
+						height="16"
+						key="staticText-36"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Name  :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="5"
+						y="68"
+						width="70"
+						height="12"
+						key="staticText-37"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Address  :]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="36"
+						y="44"
+						width="175"
+						height="24"
+						key="textField"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[$P{Buyersname}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="57"
+						y="31"
+						width="154"
+						height="11"
+						key="textField"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[$P{InVoiceNo.}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="28"
+						y="20"
+						width="71"
+						height="11"
+						key="textField"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[$P{trans_date}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="5"
+						y="77"
+						width="206"
+						height="36"
+						key="textField"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[$P{BuyerAddress}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement
+						x="5"
+						y="-1"
+						width="141"
+						height="16"
+						key="staticText-60"/>
+					<box></box>
+					<textElement>
+						<font pdfFontName="Helvetica-Bold" size="12" isBold="true"/>
+					</textElement>
+				<text><![CDATA[DELIVERY CHALLAN]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="5"
+						y="116"
+						width="31"
+						height="12"
+						key="staticText-61"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Works :]]></text>
+				</staticText>
+				<line direction="TopDown">
+					<reportElement
+						x="28"
+						y="29"
+						width="82"
+						height="1"
+						forecolor="#999999"
+						key="line-126"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="57"
+						y="40"
+						width="154"
+						height="1"
+						forecolor="#999999"
+						key="line-127"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="36"
+						y="54"
+						width="175"
+						height="1"
+						forecolor="#999999"
+						key="line-128"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="36"
+						y="67"
+						width="175"
+						height="1"
+						forecolor="#999999"
+						key="line-129"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="5"
+						y="87"
+						width="206"
+						height="1"
+						forecolor="#999999"
+						key="line-131"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="5"
+						y="100"
+						width="206"
+						height="1"
+						forecolor="#999999"
+						key="line-132"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="36"
+						y="125"
+						width="175"
+						height="1"
+						forecolor="#999999"
+						key="line-133"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="5"
+						y="113"
+						width="206"
+						height="1"
+						forecolor="#999999"
+						key="line-134"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+			</band>
+		</pageHeader>
+		<columnHeader>
+			<band height="26"  isSplitAllowed="true" >
+				<line direction="TopDown">
+					<reportElement
+						x="2"
+						y="-1"
+						width="357"
+						height="1"
+						forecolor="#999999"
+						key="line-107"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<staticText>
+					<reportElement
+						x="5"
+						y="5"
+						width="17"
+						height="13"
+						key="staticText-30"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Sr.No]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="28"
+						y="5"
+						width="123"
+						height="13"
+						key="staticText-31"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Description Of Goods]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="146"
+						y="5"
+						width="47"
+						height="13"
+						key="staticText-32"/>
+					<box></box>
+					<textElement textAlignment="Center">
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Quantity]]></text>
+				</staticText>
+				<line direction="TopDown">
+					<reportElement
+						x="2"
+						y="24"
+						width="357"
+						height="1"
+						forecolor="#999999"
+						key="line-81"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<staticText>
+					<reportElement
+						x="194"
+						y="5"
+						width="57"
+						height="13"
+						key="staticText-38"/>
+					<box></box>
+					<textElement textAlignment="Center">
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Rate]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="216"
+						y="12"
+						width="17"
+						height="12"
+						key="staticText-39"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[(Rs)]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="251"
+						y="5"
+						width="37"
+						height="21"
+						key="staticText-40"/>
+					<box></box>
+					<textElement textAlignment="Justified">
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Sq.MTRS /SHEET]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="301"
+						y="5"
+						width="60"
+						height="13"
+						key="staticText-41"/>
+					<box></box>
+					<textElement textAlignment="Justified">
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[      Amount]]></text>
+				</staticText>
+			</band>
+		</columnHeader>
+		<detail>
+			<band height="12"  isSplitAllowed="true" >
+				<textField isStretchWithOverflow="false" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="28"
+						y="0"
+						width="123"
+						height="12"
+						key="textField"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[$F{tblstockitem_si_name}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="148"
+						y="0"
+						width="31"
+						height="12"
+						key="textField"/>
+					<box></box>
+					<textElement textAlignment="Right">
+						<font size="8"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{tblinventorytransactionitems_invtrans_qty})==null ? "" : ""+$F{tblinventorytransactionitems_invtrans_qty}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="197"
+						y="0"
+						width="49"
+						height="12"
+						key="textField"/>
+					<box></box>
+					<textElement textAlignment="Right">
+						<font size="8"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[($F{tblinventorytransactionitems_invtrans_rate})==null ? "" : ""+$F{tblinventorytransactionitems_invtrans_rate}+"  "+$F{tblunitofmeasure_uom_symbol}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="307"
+						y="0"
+						width="49"
+						height="12"
+						key="textField"/>
+					<box></box>
+					<textElement textAlignment="Right">
+						<font size="8"/>
+					</textElement>
+				<textFieldExpression   class="java.math.BigDecimal"><![CDATA[$F{tblinventorytransactionitems_invtrans_amount}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" pattern="##0.00" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="251"
+						y="0"
+						width="37"
+						height="12"
+						key="textField"/>
+					<box></box>
+					<textElement textAlignment="Right">
+						<font size="8"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.Double"><![CDATA[$F{tblinventorytransactionitems_invtrans_making}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="5"
+						y="0"
+						width="17"
+						height="12"
+						key="textField-2"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.Integer"><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="180"
+						y="0"
+						width="15"
+						height="12"
+						key="textField-4"/>
+					<box></box>
+					<textElement textAlignment="Left">
+						<font size="8"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[$F{tblunitofmeasure_uom_symbol}]]></textFieldExpression>
+				</textField>
+			</band>
+		</detail>
+		<columnFooter>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</columnFooter>
+		<pageFooter>
+			<band height="73"  isSplitAllowed="true" >
+				<line direction="TopDown">
+					<reportElement
+						x="194"
+						y="0"
+						width="165"
+						height="1"
+						forecolor="#999999"
+						key="line-110"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="2"
+						y="0"
+						width="357"
+						height="1"
+						forecolor="#999999"
+						key="line-112"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="2"
+						y="11"
+						width="357"
+						height="1"
+						forecolor="#999999"
+						key="line-113"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<staticText>
+					<reportElement
+						x="25"
+						y="0"
+						width="71"
+						height="13"
+						key="staticText-51"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Dispatch Through  :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="5"
+						y="30"
+						width="105"
+						height="36"
+						key="staticText-53"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Our Responsibility ceases as soon as goods leave  our premises.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="128"
+						y="11"
+						width="105"
+						height="26"
+						key="staticText-54"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Received the goods in good order and Condition]]></text>
+				</staticText>
+				<staticText>
+					<reportElement
+						x="5"
+						y="11"
+						width="105"
+						height="26"
+						key="staticText-55"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Goods once sold will not be taken back.                                          ]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="246"
+						y="54"
+						width="113"
+						height="13"
+						key="textField"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA["For  "+$P{CompanySign}]]></textFieldExpression>
+				</textField>
+				<line direction="TopDown">
+					<reportElement
+						x="118"
+						y="12"
+						width="1"
+						height="59"
+						forecolor="#999999"
+						key="line-122"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<line direction="TopDown">
+					<reportElement
+						x="238"
+						y="12"
+						width="1"
+						height="58"
+						forecolor="#999999"
+						key="line-124"/>
+					<graphicElement stretchType="NoStretch"/>
+				</line>
+				<staticText>
+					<reportElement
+						x="128"
+						y="54"
+						width="105"
+						height="17"
+						key="staticText-62"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<text><![CDATA[Receiver's Signature]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="true" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="96"
+						y="0"
+						width="51"
+						height="11"
+						key="textField"/>
+					<box></box>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[$P{dispatchthrough}]]></textFieldExpression>
+				</textField>
+			</band>
+		</pageFooter>
+		<summary>
+			<band height="0"  isSplitAllowed="true" >
+			</band>
+		</summary>
+</jasperReport>

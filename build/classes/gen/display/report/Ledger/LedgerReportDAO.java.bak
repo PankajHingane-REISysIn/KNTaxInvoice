@@ -1,0 +1,277 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package gen.display.report.Ledger;
+
+import gen.database.connection.DatabaseConnection1;
+import gen.dto.Constants;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ *
+ * @author admin
+ */
+public class LedgerReportDAO {
+
+    public static List<LedgerReportDTO> getLedgerReport(String fromDateStr, String toDateStr, List<String> ledger_List) throws Exception {
+
+	List<LedgerReportDTO> ledgerReportFormDTOList = new ArrayList<LedgerReportDTO>();
+	LedgerReportDTO ledgerReportFormDTO = new LedgerReportDTO();
+
+	for (String ledger_id : ledger_List) {
+	    ledgerReportFormDTO = getLedgerReportFromDatabase(fromDateStr, toDateStr, ledger_id);
+	    ledgerReportFormDTOList.add(ledgerReportFormDTO);
+	}
+
+
+	return ledgerReportFormDTOList;
+    }
+
+    private static LedgerReportDTO getLedgerReportFromDatabase(String fromDateStr, String toDateStr, String ledger_id) throws Exception {
+	LedgerReportDTO ledgerReportFormDTO = new LedgerReportDTO();
+	List<TransactionsDTO> transactionsDTOList = new ArrayList<TransactionsDTO>();
+	Connection conn = null;
+	try {
+	    conn = DatabaseConnection1.GetConnection();
+	    conn.setAutoCommit(false);
+	    String query = "";
+	    String cr = "";
+	    String d = "";
+
+	    query = "select sum(trans_amt) as totalCred from tbltransactionledger where trans_ledgerId = ? and trans_type = " + gen.dto.Constants.DEBIT + " and trans_id in (select trans_id from tbltransactionmain where trans_date < ? )";
+	    PreparedStatement prmt = conn.prepareStatement(query);
+	    prmt.setString(1, ledger_id);
+	    prmt.setString(2, fromDateStr);
+	    ResultSet rs1 = prmt.executeQuery();
+	    while (rs1.next()) {
+		cr = cr + rs1.getDouble("totalCred");
+	    }
+	    rs1.close();
+	    prmt.close();
+
+	    query = "select sum(trans_amt) as totalDeb from tbltransactionledger where trans_ledgerId = ? and trans_type = " + gen.dto.Constants.CREDIT + " and trans_id in (select trans_id from tbltransactionmain where trans_date < ? )";
+	    PreparedStatement prmt1 = conn.prepareStatement(query);
+	    prmt1.setString(1, ledger_id);
+	    prmt1.setString(2, fromDateStr);
+	    ResultSet rs2 = prmt1.executeQuery();
+	    while (rs2.next()) {
+		d = d + rs2.getDouble("totalDeb");
+	    }
+	    rs2.close();
+	    prmt1.close();
+
+	    Double opening_Balance = 0D;
+	    query = "select ledger_openingBalance,opening_type,ledger_under from tblledger where ledger_id = ?";
+	    PreparedStatement prmt3 = conn.prepareStatement(query);
+	    prmt3.setString(1, ledger_id);
+	    ResultSet rs3 = prmt3.executeQuery();
+	    while (rs3.next()) {
+		opening_Balance = rs3.getDouble("ledger_openingBalance");
+
+		if (rs3.getInt("opening_type") == 2) {
+		    opening_Balance = opening_Balance + Double.parseDouble(cr) - Double.parseDouble(d);
+		    if (opening_Balance < 0) {
+			ledgerReportFormDTO.setOpening_balance_type("Debit");
+		    } else {
+			ledgerReportFormDTO.setOpening_balance_type("Credit");
+		    }
+		} else {
+		    opening_Balance = opening_Balance + Double.parseDouble(d) - Double.parseDouble(cr);
+		    if (opening_Balance > 0) {
+			ledgerReportFormDTO.setOpening_balance_type("Debit");
+		    } else {
+			ledgerReportFormDTO.setOpening_balance_type("Credit");
+		    }
+		}
+		ledgerReportFormDTO.setOpening_balance(Math.abs(opening_Balance));
+	    }
+	    rs3.close();
+	    prmt3.close();
+
+            query = "SELECT tbltransactionledger.trans_type AS tbltransactionledger_trans_type, tbltransactionledger.trans_index AS tbltransactionledger_trans_index, tbltransactionledger.IsAvaibleToUser AS tbltransactionledger_IsAvailableTouser, tbltransactionmain.trans_id AS tbltransactionmain_trans_id, tbltransactionmain.trans_receiptNo AS tbltransactionmain_trans_receiptNo, tbltransactionmain.trans_date AS tbltransactionmain_trans_date, tbltransactionmain.trans_typeIndex AS tbltransactionmain_trans_typeIndex, tbltransactionledger.trans_ledgerId AS tbltransactionledger_trans_ledgerId, tbltransactionledger.trans_id AS tbltransactionledger_trans_id, tbltransactionledger.trans_amt AS tbltransactionledger_trans_amt, tbltransactionledger.trans_index AS tbltransactionledger_trans_index FROM tbltransactionmain tbltransactionmain INNER JOIN tbltransactionledger tbltransactionledger ON tbltransactionmain.trans_id = tbltransactionledger.trans_id where  tbltransactionledger.trans_id in (select trans_id from tbltransactionledger where trans_ledgerId = ? ) and tbltransactionmain.trans_date BETWEEN ? AND ? and tbltransactionmain.trans_typeIndex Not in( " + gen.dto.Constants.CONTRA_TYPE_INDEX + ", " + gen.dto.Constants.PURCHASE_ORDER_TYPE_INDEX + " , " + gen.dto.Constants.GRNOTE_TYPE_INDEX + ") order by  tbltransactionmain.trans_date";
+            //query = "SELECT tbltransactionledger.trans_type AS tbltransactionledger_trans_type, tbltransactionledger.IsAvaibleToUser AS tbltransactionledger_IsAvailableTouser, tbltransactionmain.trans_id AS tbltransactionmain_trans_id, tbltransactionmain.trans_receiptNo AS tbltransactionmain_trans_receiptNo, tbltransactionmain.trans_date AS tbltransactionmain_trans_date, tbltransactionmain.trans_typeIndex AS tbltransactionmain_trans_typeIndex, tbltransactionledger.trans_ledgerId AS tbltransactionledger_trans_ledgerId, tbltransactionledger.trans_id AS tbltransactionledger_trans_id, tbltransactionledger.trans_amt AS tbltransactionledger_trans_amt, tbltransactionledger.trans_index AS tbltransactionledger_trans_index FROM tbltransactionmain tbltransactionmain INNER JOIN tbltransactionledger tbltransactionledger ON tbltransactionmain.trans_id = tbltransactionledger.trans_id where  tbltransactionledger.trans_id in (select trans_id from tbltransactionledger where trans_ledgerId = ? ) and tbltransactionmain.trans_typeIndex Not in( " + gen.dto.Constants.CONTRA_TYPE_INDEX + ") order by  tbltransactionmain.trans_date";
+	    PreparedStatement prmt4 = conn.prepareStatement(query);
+	    prmt4.setString(1, ledger_id);
+	    prmt4.setString(2, fromDateStr);
+	    prmt4.setString(3, toDateStr);
+	    ResultSet rs4 = prmt4.executeQuery();
+//            Map<String, TransactionsDTO> tranctionDTOMap = new HashMap<String, TransactionsDTO>();
+            LinkedHashMap<String, TransactionsDTO> tranctionDTOMap = new LinkedHashMap<String, TransactionsDTO>();
+	    while (rs4.next()) {
+                TransactionsDTO transactionsDTO;
+
+                if (tranctionDTOMap.get("" + rs4.getLong("tbltransactionmain_trans_id")) == null) {
+
+                    transactionsDTO = new TransactionsDTO();
+                    transactionsDTO.setVchno("" + rs4.getLong("tbltransactionmain_trans_receiptNo"));
+                    transactionsDTO.setTransId(rs4.getString("tbltransactionmain_trans_id"));
+		transactionsDTO.setDate(gen.dto.Constants.DATE_FORMATER.format(rs4.getDate("tbltransactionmain_trans_date")));
+//                    System.out.println("=trans_date====>>>>++" + rs4.getString("tbltransactionmain_trans_date"));
+		//VCH Type
+		if (rs4.getInt("tbltransactionmain_trans_typeIndex") == gen.dto.Constants.PAYMENT_TYPE_INDEX) {
+		    transactionsDTO.setVchtype("Payment");
+		} else if (rs4.getInt("tbltransactionmain_trans_typeIndex") == gen.dto.Constants.RECEIPT_TYPE_INDEX) {
+		    transactionsDTO.setVchtype("Receipt");
+		} else if (rs4.getInt("tbltransactionmain_trans_typeIndex") == gen.dto.Constants.SALE_TYPE_INDEX) {
+		    transactionsDTO.setVchtype("Sale");
+		} else if (rs4.getInt("tbltransactionmain_trans_typeIndex") == gen.dto.Constants.PURCHASE_TYPE_INDEX) {
+		    transactionsDTO.setVchtype("Purchase");
+		} else if (rs4.getInt("tbltransactionmain_trans_typeIndex") == gen.dto.Constants.CHALAN_TYPE_INDEX) {
+		    transactionsDTO.setVchtype("Chalan");
+		}
+                    tranctionDTOMap.put(transactionsDTO.getTransId(), transactionsDTO);
+                }else{
+                    transactionsDTO = tranctionDTOMap.get("" + rs4.getLong("tbltransactionmain_trans_id"));
+                }
+                
+                LedgerTypeDTO ledgerTypeDTO = new LedgerTypeDTO();
+                ledgerTypeDTO.setLedgerId("" + rs4.getInt("tbltransactionledger_trans_ledgerId"));
+                ledgerTypeDTO.setAmount(rs4.getDouble("tbltransactionledger_trans_amt"));
+                ledgerTypeDTO.setIsAvailabtToUser(rs4.getInt("tbltransactionledger_IsAvailableTouser"));
+                ledgerTypeDTO.setIndex(rs4.getString("tbltransactionledger_trans_index"));
+                if(transactionsDTO.getLedgerTypeDTOMap().get(rs4.getInt("tbltransactionledger_trans_type")+"") == null){
+                    transactionsDTO.getLedgerTypeDTOMap().put(rs4.getInt("tbltransactionledger_trans_type")+"", new ArrayList<LedgerTypeDTO>());
+                }
+		transactionsDTO.getLedgerTypeDTOMap().get(rs4.getInt("tbltransactionledger_trans_type")+"").add(ledgerTypeDTO);
+                if(ledger_id.trim().equalsIgnoreCase(ledgerTypeDTO.getLedgerId())){
+                    transactionsDTO.setIsAvailableTouser(rs4.getInt("tbltransactionledger_IsAvailableTouser"));
+                    if (rs4.getInt("tbltransactionledger_trans_type") == Constants.CREDIT) {
+                        transactionsDTO.setIsDebit(Boolean.FALSE);
+                    }else{
+                        transactionsDTO.setIsDebit(Boolean.TRUE);
+                    }
+                }
+            }
+                
+                
+            List<TransactionsDTO> transDTOLst = new ArrayList<TransactionsDTO>();
+                
+            int count = 0;
+            for(String str : tranctionDTOMap.keySet()){
+                TransactionsDTO transactionDTO = tranctionDTOMap.get(str);
+//                System.out.println("------------ " + count);
+                System.out.println("Transaction Date ------------------" + transactionDTO.getDate());
+//                System.out.println("Transaction trans_id ------------------" + transactionDTO.getTransId());
+                System.out.println("Transaction receipt no ------------------" + transactionDTO.getVchno());
+                System.out.println("Transaction Available user no ------------------" + transactionDTO.getIsAvailableTouser());
+
+                if(transactionDTO.getIsAvailableTouser() == 1 || transactionDTO.getIsAvailableTouser() == 2){
+                    System.out.println("Debit value ----------- " + transactionDTO.getIsDebit());
+                    if(transactionDTO.getIsDebit()){
+                        Map<String, TransactionsDTO> transMap = new HashMap<String, TransactionsDTO>();
+
+                        for (LedgerTypeDTO ledgerTypeDTO : transactionDTO.getLedgerTypeDTOMap().get(Constants.CREDIT + "")) {
+                            if (ledgerTypeDTO.getIsAvailabtToUser() == 1) {
+                                TransactionsDTO transactionDTO1 = (TransactionsDTO) transactionDTO.clone();
+                                transactionDTO1.setParticulars(ledgerTypeDTO.getLedgerId());
+                                transMap.put(ledgerTypeDTO.getIndex(), transactionDTO1);
+                                //transactionDTO1.setParticulars(ledgerTypeDTO.getLedgerId());
+                            }
+                        }
+
+                        for(LedgerTypeDTO ledgerTypeDTO : transactionDTO.getLedgerTypeDTOMap().get(Constants.DEBIT+"")){
+
+                            if(ledgerTypeDTO.getLedgerId().trim().equalsIgnoreCase(ledger_id)){
+                                if (transMap.get(ledgerTypeDTO.getIndex()) != null) {
+                                    TransactionsDTO transactionDTO2 = transMap.get(ledgerTypeDTO.getIndex());
+                                    transactionDTO2.setCredit(ledgerTypeDTO.getAmount() + "");
+                                    transDTOLst.add(transactionDTO2);
+                            }
+
+                            }
+                        }
+
+		} else {
+
+                        Map<String, TransactionsDTO> transMap = new HashMap<String, TransactionsDTO>();
+                        for(LedgerTypeDTO ledgerTypeDTO : transactionDTO.getLedgerTypeDTOMap().get(Constants.DEBIT+"")){
+                            System.out.println("ledgerTypeDTO.getIsAvailabtToUser  ====== " + ledgerTypeDTO.getIsAvailabtToUser());
+                            System.out.println("ledgerTypeDTO.getLedgerId() ====== " + ledgerTypeDTO.getLedgerId());
+                            System.out.println("lEDGER id ---------"+ledger_id);
+                            if(ledgerTypeDTO.getIsAvailabtToUser() == 1){
+                                TransactionsDTO transactionDTO1 = (TransactionsDTO) transactionDTO.clone();
+                                transactionDTO1.setParticulars(ledgerTypeDTO.getLedgerId());
+                                transMap.put(ledgerTypeDTO.getIndex(), transactionDTO1);
+		}
+                        }
+                        for(LedgerTypeDTO ledgerTypeDTO : transactionDTO.getLedgerTypeDTOMap().get(Constants.CREDIT+"")){
+                            System.out.println("Ledger in Get  ====== " + ledgerTypeDTO.getLedgerId());
+                            System.out.println("getIsAvailabtToUser in Get  ====== " + ledgerTypeDTO.getIsAvailabtToUser());
+                            System.out.println("lEDGER id ---------"+ledger_id);
+                            if(ledgerTypeDTO.getLedgerId().trim().equalsIgnoreCase(ledger_id)){
+                                System.out.println("iiiiiiiiiiii ");
+                                if (transMap.get(ledgerTypeDTO.getIndex()) != null) {
+                                    System.out.println("rrrrrrrrrrrrrrrrrr ");
+                                    TransactionsDTO transactionDTO2 = transMap.get(ledgerTypeDTO.getIndex());
+                                    transactionDTO2.setDebit(ledgerTypeDTO.getAmount() + "");
+                                    transDTOLst.add(transactionDTO2);
+		}
+                        }
+                    }
+
+                        System.out.println("\n \n \n \n");
+
+	    }
+                } else {
+                }
+                count++;
+            }
+            
+            
+            transactionsDTOList.addAll(transDTOLst);
+	    rs4.close();
+	    prmt4.close();
+	    Double total_credit = 0D;
+	    Double total_debit = 0D;
+
+	    for (TransactionsDTO transactionsDTO : transactionsDTOList) {
+		if (!transactionsDTO.getCredit().equals("")) {
+		    total_credit = total_credit + Double.parseDouble(transactionsDTO.getCredit());
+		}
+		if (!transactionsDTO.getDebit().equals("")) {
+		    total_debit = total_debit + Double.parseDouble(transactionsDTO.getDebit());
+		}
+
+	    }
+	    ledgerReportFormDTO.setTotal_credit(total_credit);
+	    ledgerReportFormDTO.setTotal_debit(total_debit);
+
+	    Double cl = 0D;
+	    if (ledgerReportFormDTO.getOpening_balance_type().equalsIgnoreCase("Credit")) {
+		cl = ledgerReportFormDTO.getOpening_balance() + ledgerReportFormDTO.getTotal_credit() - ledgerReportFormDTO.getTotal_debit();
+		if (cl < 0.0) {
+		    ledgerReportFormDTO.setClosing_balance_type("Debit");
+		} else {
+		    ledgerReportFormDTO.setClosing_balance_type("Credit");
+		}
+	    } else {
+		cl = ledgerReportFormDTO.getOpening_balance() + ledgerReportFormDTO.getTotal_debit() - ledgerReportFormDTO.getTotal_credit();
+		if (cl > 0.0) {
+		    ledgerReportFormDTO.setClosing_balance_type("Debit");
+		} else {
+		    ledgerReportFormDTO.setClosing_balance_type("Credit");
+		}
+	    }
+
+	    ledgerReportFormDTO.setClosing_balance(cl);
+
+	    ledgerReportFormDTO.setTransactionsDTO(transactionsDTOList);
+	    conn.commit();
+	    conn.close();
+	} catch (Exception e) {
+	    if (conn != null && !conn.isClosed()) {
+		conn.close();
+	    }
+	    throw e;
+	}
+	return ledgerReportFormDTO;
+    }
+}

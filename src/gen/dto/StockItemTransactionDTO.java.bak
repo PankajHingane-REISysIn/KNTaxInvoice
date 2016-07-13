@@ -1,0 +1,163 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package gen.dto;
+
+/**
+ *
+ * @author pc5
+ */
+public class StockItemTransactionDTO {
+
+    private String name = "";
+    private Double length = 0d;
+    private Double width = 0d;
+    private Double thkness = 0d;
+    private Double quantity = 0d;
+    private Double sqFeet = 0d;
+    private Double rate = 0d;
+    private Double Amount = 0d;
+    private String unit_of_symbol = "";
+    private String isdeemedpositive = "";
+
+    /**
+     * @return the name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * @param name the name to set
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     * @return the length
+     */
+    public Double getLength() {
+        return length;
+    }
+
+    /**
+     * @param length the length to set
+     */
+    public void setLength(Double length) {
+        this.length = length;
+    }
+
+    /**
+     * @return the width
+     */
+    public Double getWidth() {
+        return width;
+    }
+
+    /**
+     * @param width the width to set
+     */
+    public void setWidth(Double width) {
+        this.width = width;
+    }
+
+    /**
+     * @return the thickness
+     */
+    public Double getThkness() {
+        return thkness;
+    }
+
+    /**
+     * @param thkness the thickness to set
+     */
+    public void setThkness(Double thkness) {
+        this.thkness = thkness;
+    }
+
+    /**
+     * @return the quantity
+     */
+    public Double getQuantity() {
+        return quantity;
+    }
+
+    /**
+     * @param quantity the quantity to set
+     */
+    public void setQuantity(Double quantity) {
+        this.quantity = quantity;
+    }
+
+    /**
+     * @return the sqFeet
+     */
+    public Double getSqFeet() {
+        return sqFeet;
+    }
+
+    /**
+     * @param sqFeet the sqFeet to set
+     */
+    public void setSqFeet(Double sqFeet) {
+        this.sqFeet = sqFeet;
+    }
+
+    /**
+     * @return the rate
+     */
+    public Double getRate() {
+        return rate;
+    }
+
+    /**
+     * @param rate the rate to set
+     */
+    public void setRate(Double rate) {
+        this.rate = rate;
+    }
+
+    /**
+     * @return the Amount
+     */
+    public Double getAmount() {
+        return Amount;
+    }
+
+    /**
+     * @param Amount the Amount to set
+     */
+    public void setAmount(Double Amount) {
+        this.Amount = Amount;
+    }
+
+    /**
+     * @return the unit_of_symbol
+     */
+    public String getUnit_of_symbol() {
+        return unit_of_symbol;
+    }
+
+    /**
+     * @param unit_of_symbol the unit_of_symbol to set
+     */
+    public void setUnit_of_symbol(String unit_of_symbol) {
+        this.unit_of_symbol = unit_of_symbol;
+    }
+
+    /**
+     * @return the isdeemedpositive
+     */
+    public String getIsdeemedpositive() {
+        return isdeemedpositive;
+    }
+
+    /**
+     * @param isdeemedpositive the isdeemedpositive to set
+     */
+    public void setIsdeemedpositive(String isdeemedpositive) {
+        this.isdeemedpositive = isdeemedpositive;
+    }
+}

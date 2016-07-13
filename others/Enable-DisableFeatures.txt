@@ -1,0 +1,14 @@
+Group-Y
+Ledger-Y
+Stock Group-Y
+Stock Item-Y
+Unit Of measure-Y
+Sale-Y
+Purchase-Y
+Receipt-Y
+Payment-Y
+Challan-Y
+Contra-Y
+Report-Y
+CompanySettings-Y
+NetworkSettings-Y

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<AdSuMuDi>
+
+
+<LedgerList><Ledger>
+    <Name>Sales Ledger</Name>
+    <Under>60</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Cash</Name>
+    <Under>71</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Purchase Ledger</Name>
+    <Under>61</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Sundry</Name>
+    <Under>57</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Purchase1</Name>
+    <Under>61</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>2</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Sachin</Name>
+    <Under>71</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Pankaj</Name>
+    <Under>71</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Bank</Name>
+    <Under>70</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Atul Purchase Ledger</Name>
+    <Under>71</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Sd</Name>
+    <Under>71</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>4.1</Name>
+    <Under>71</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SudeepPaymentLedger</Name>
+    <Under>71</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SudeepPurchaseLedger</Name>
+    <Under>61</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SudeepCashLedger</Name>
+    <Under>71</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SudeepSaleLedger</Name>
+    <Under>60</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SudeepReceiptLedger</Name>
+    <Under>71</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+
+</LedgerList>
+
+
+<StockItemList><StockItem>
+    <Name>Stk1</Name>
+    <Under>122</Under>
+    <Alias/>
+    <Length>0.0</Length>
+    <Width>0.0</Width>
+    <Thickness>0.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>1</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>Stk2</Name>
+    <Under>122</Under>
+    <Alias/>
+    <Length>0.0</Length>
+    <Width>0.0</Width>
+    <Thickness>0.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>1</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>Oreo</Name>
+    <Under>123</Under>
+    <Alias/>
+    <Length>0.0</Length>
+    <Width>0.0</Width>
+    <Thickness>0.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>1</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>MariGold</Name>
+    <Under>123</Under>
+    <Alias/>
+    <Length>0.0</Length>
+    <Width>0.0</Width>
+    <Thickness>0.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>1</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>Hero</Name>
+    <Under>124</Under>
+    <Alias/>
+    <Length>0.0</Length>
+    <Width>0.0</Width>
+    <Thickness>0.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>2</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>Honda</Name>
+    <Under>124</Under>
+    <Alias/>
+    <Length>0.0</Length>
+    <Width>0.0</Width>
+    <Thickness>0.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>2</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+
+</StockItemList>
+
+
+
+
+<ReceiptVoucherList><ReceiptVoucher>
+    <ReceiptNo>6</ReceiptNo>
+    <Account>Atul Purchase Ledger</Account>
+    <Date>2013-12-15</Date>
+    <FinalAmount>343434.0</FinalAmount>
+
+<LedgerTransactionList><LedgerDetails>
+    <Name>Atul Purchase Ledger</Name>
+    <CheckNo>erere</CheckNo>
+    <Note>343d</Note>
+    <Amount>343434.0</Amount>
+</LedgerDetails>
+</LedgerTransactionList>
+</ReceiptVoucher>
+</ReceiptVoucherList>
+
+
+
+
+</AdSuMuDi>

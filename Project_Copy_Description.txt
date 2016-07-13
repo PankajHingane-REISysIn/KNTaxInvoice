@@ -1,0 +1,11 @@
+Kasturi Novasoft Technologies,Pune,India.
+
+Subject       : Official Description Of The Metal Copy.
+Description: This is a Metal Copy build from Plywood copy.The stock item of this copy does not contain length,width & thickness.
+                      Same length,width,thickness is removed from sale form & purchase form.
+	   A] Sale Form Contents:
+				Particulars,Quantity,Rate,Amount only.
+				Note,Dispatch Doc Through,Dispatch Doc Number,Amount,Discount,Shipping,Final Amount.
+	   B] Purchase Form Contents :
+				Particulars,Quantity,Rate,Amount only.
+				Note,Payment Mode,Amount,Final Amount.	

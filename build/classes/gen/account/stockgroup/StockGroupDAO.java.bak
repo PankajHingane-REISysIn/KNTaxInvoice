@@ -1,0 +1,297 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package gen.account.stockgroup;
+
+import gen.database.connection.DatabaseConnection1;
+import gen.dto.Constants;
+import gen.dto.Util;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/**
+ *
+ * @author pc5
+ */
+public class StockGroupDAO {
+
+    public static void upsertStockItem(List<StockGroupDTO> stockGroupDTOs) throws SQLException, ParseException, Exception {
+        if (stockGroupDTOs != null && stockGroupDTOs.size() > 0) {
+            List<StockGroupDTO> stockGroupDTOstoInsert = new ArrayList<StockGroupDTO>();
+            List<StockGroupDTO> stockGroupDTOstoUpdate = new ArrayList<StockGroupDTO>();
+
+            for (StockGroupDTO stockGroupDTO : stockGroupDTOs) {
+                if (stockGroupDTO.getStockGroupID() == 0) {
+                    stockGroupDTOstoInsert.add(stockGroupDTO);
+                } else {
+                    stockGroupDTOstoUpdate.add(stockGroupDTO);
+                }
+            }
+
+            if (stockGroupDTOstoInsert.size() > 0) {
+                insertStockGroup(stockGroupDTOstoInsert);
+            }
+
+            if (stockGroupDTOstoUpdate.size() > 0) {
+                updateStockGroup(stockGroupDTOstoUpdate);
+            }
+
+        }
+
+    }
+
+    public static List<StockGroupDTO> getStockGroupList(Set<String> stockGroupMap, String type) throws Exception {
+        List<StockGroupDTO> stockGroupDTOList = new ArrayList<StockGroupDTO>();
+        String query = "";
+        String condition = "";
+        String StockGroupNameList = "";
+        Connection conn = null;
+        try {
+        if (!Util.isEmpty(stockGroupMap)) {
+            if (type.equalsIgnoreCase(Constants.STOCK_GROUP_NAME)) {
+                for (String group : stockGroupMap) {
+                        StockGroupNameList = "'" + group + "'" + "," + StockGroupNameList;
+                }
+                String groupNameList1 = StockGroupNameList.substring(0, StockGroupNameList.length() - 1);
+                condition = " where sg_name in(" + groupNameList1 + ")";
+            } else if (type.equalsIgnoreCase(Constants.STOCK_GROUP_ID)) {
+                for (String group : stockGroupMap) {
+                    StockGroupNameList = group + "," + StockGroupNameList;
+                }
+                String groupNameList1 = StockGroupNameList.substring(0, StockGroupNameList.length() - 1);
+                condition = " where sg_id in(" + groupNameList1 + ")";
+            }
+        }
+
+        query = "select * from tblstockgroup " + condition;
+        System.out.println("select * from tblstockgroup--->>>" + query);
+        conn = DatabaseConnection1.GetConnection();
+
+            PreparedStatement preparedStmt = conn.prepareStatement(query);
+            ResultSet resultSet = preparedStmt.executeQuery();
+            while (resultSet.next()) {
+                StockGroupDTO stockGroupDTO = new StockGroupDTO();
+                stockGroupDTO.setStockGroupID(resultSet.getInt("sg_id"));
+                stockGroupDTO.setStockGroupName(resultSet.getString("sg_name"));
+                stockGroupDTO.setStockGroupAlias(resultSet.getString("sg_alias"));
+                stockGroupDTO.setStockGroupUnder(resultSet.getString("sg_under"));
+                stockGroupDTOList.add(stockGroupDTO);
+            }
+        } catch (Exception ex) {
+            if (conn != null && !conn.isClosed()) {
+                conn.close();
+            }
+            throw ex;
+        }
+        return stockGroupDTOList;
+    }
+
+    private static void insertStockGroup(List<StockGroupDTO> StockGroupDTOList) throws Exception {
+
+        Connection conn = null;
+        try {
+            conn = DatabaseConnection1.GetConnection();
+        String q = "insert into tblstockgroup(sg_name,sg_alias,sg_under)values(?,?,?)";
+        PreparedStatement ps = conn.prepareStatement(q);
+        for (StockGroupDTO stockgroupDTO : StockGroupDTOList) {
+
+            ps.setString(1, stockgroupDTO.getStockGroupName().toString().trim());
+            ps.setString(2, stockgroupDTO.getStockGroupAlias().toString().trim());
+            ps.setInt(3, Integer.parseInt(stockgroupDTO.getStockGroupUnder()));
+            ps.addBatch();
+        }
+        ps.executeBatch();
+
+        ps.close();
+        conn.close();
+        } catch (Exception ex) {
+            if (conn != null && !conn.isClosed()) {
+                conn.close();
+            }
+            throw ex;
+        }
+        System.out.println("Insert function END");
+    }
+
+    private static void updateStockGroup(List<StockGroupDTO> StockGroupDTOList) throws Exception {
+        Connection conn = null;
+        try {
+            conn = DatabaseConnection1.GetConnection();
+            String query = "update tblstockgroup set sg_name = ?, sg_alias = ?, sg_under = ? where sg_id = ?";
+            PreparedStatement ps = conn.prepareStatement(query);
+            for (StockGroupDTO stockGroupDTO : StockGroupDTOList) {
+                ps.setString(1, stockGroupDTO.getStockGroupName().trim());
+                ps.setString(2, stockGroupDTO.getStockGroupAlias().trim());
+                ps.setString(3, stockGroupDTO.getStockGroupUnder().trim());
+                ps.setInt(4, stockGroupDTO.getStockGroupID());
+                ps.addBatch();
+            }
+            ps.executeBatch();
+            ps.close();
+            conn.close();
+        } catch (Exception ex) {
+            if (conn != null && !conn.isClosed()) {
+                conn.close();
+            }
+            throw ex;
+        }
+    }
+
+    public static boolean deleteStockGroup(List<StockGroupDTO> StockGroupDTOList) throws Exception {
+        Connection conn = null;
+        try {
+            Integer select = 0;
+            for (StockGroupDTO stockGroupDTO : StockGroupDTOList) {
+                select = (stockGroupDTO.getStockGroupID());
+            }
+            conn = DatabaseConnection1.GetConnection();
+            conn.setAutoCommit(false);
+            Statement st = conn.createStatement();
+            ResultSet rs = st.executeQuery("select si_id from tblstockitem where si_under = " + select + "");
+            if (rs.next()) {
+                return true;
+            } else {
+                st.executeUpdate("delete from tblstockgroup where sg_id = " + select + "");
+            }
+            conn.commit();
+            conn.close();
+        } catch (Exception ex) {
+            if (conn != null && !conn.isClosed()) {
+                conn.close();
+            }
+            throw ex;
+        }
+        return false;
+
+    }
+
+    public static Map<String, String> loadStockGroupNameToIDMap() throws Exception {
+        Map<String, String> stockGroupNameToIDMapping = new HashMap<String, String>();
+        Connection con = null;
+        String query = "select sg_name,sg_id from tblstockgroup";
+        try {
+            con = DatabaseConnection1.GetConnection();
+            PreparedStatement preparedStmt = con.prepareStatement(query);
+            ResultSet resultSet = preparedStmt.executeQuery();
+            while (resultSet.next()) {
+                stockGroupNameToIDMapping.put(resultSet.getString("sg_name"), String.valueOf(resultSet.getInt("sg_id")));
+            }
+        } catch (Exception ex) {
+            if (con != null && !con.isClosed()) {
+                con.close();
+            }
+            throw ex;
+        }
+        return stockGroupNameToIDMapping;
+    }
+    
+     public static Map<String, String> loadStockGroupIDToUnderMap() throws Exception {
+        Map<String, String> stockGroupNameToIDMapping = new HashMap<String, String>();
+        Connection con = null;
+        String query = "select sg_id , sg_under from tblstockgroup";
+        try {
+            con = DatabaseConnection1.GetConnection();
+            PreparedStatement preparedStmt = con.prepareStatement(query);
+            ResultSet resultSet = preparedStmt.executeQuery();
+            while (resultSet.next()) {
+                stockGroupNameToIDMapping.put(resultSet.getString("sg_id"), String.valueOf(resultSet.getInt("sg_under")));
+            }
+        } catch (Exception ex) {
+            if (con != null && !con.isClosed()) {
+                con.close();
+            }
+            throw ex;
+        }
+        return stockGroupNameToIDMapping;
+    }
+
+    public static Map<String, String> loadStockGroupIDToNameMap() throws Exception {
+        Map<String, String> stockGroupIDToNameMapping = new HashMap<String, String>();
+        Connection con = null;
+        String query = "select sg_id,sg_name from tblstockgroup";
+        try {
+            con = DatabaseConnection1.GetConnection();
+            PreparedStatement preparedStmt = con.prepareStatement(query);
+            ResultSet resultSet = preparedStmt.executeQuery();
+            while (resultSet.next()) {
+//                System.out.println("ID ------------------------  "+resultSet.getInt("sg_id"));
+//                System.out.println("Name ------------------------"+resultSet.getString("sg_name"));
+                stockGroupIDToNameMapping.put(String.valueOf(resultSet.getInt("sg_id")), resultSet.getString("sg_name"));
+            }
+        } catch (Exception ex) {
+            if (con != null && !con.isClosed()) {
+                con.close();
+            }
+            throw ex;
+        }
+        return stockGroupIDToNameMapping;
+    }
+    
+     // use for Heirarchy 
+    public static List<String> getGroupIDListForGroupHeirarchy(String group_id) throws SQLException, Exception {
+
+	List<String> check_Group_ID_List = new ArrayList<String>();
+	String query = "";
+	Connection con = null;
+	check_Group_ID_List.add(group_id);
+	try {
+	    gen.dto.Constants.COMPANYDETAILS_DATABASE_CALLING = "";
+	    con = DatabaseConnection1.GetConnection();
+	    for (int i = 0; i < check_Group_ID_List.size(); i++) {
+		query = "select * from tblstockgroup where sg_under = " + check_Group_ID_List.get(i);
+		PreparedStatement preparedStmt1 = con.prepareStatement(query);
+		ResultSet resultSet1 = preparedStmt1.executeQuery();
+                System.out.println("qqqq          " + query);
+		while (resultSet1.next()) {
+		    check_Group_ID_List.add(resultSet1.getString("sg_id"));
+		}
+	    }
+	    check_Group_ID_List.remove(group_id);
+	    con.close();
+	} catch (Exception ex) {
+	    if (con != null && !con.isClosed()) {
+		con.close();
+	    }
+	    ex.printStackTrace();
+	    throw ex;
+	}
+	return check_Group_ID_List;
+    }
+    
+    public static List<StockGroupDTO> exportAllStockGroups() {
+        List<StockGroupDTO> stockGroupDTOList = new ArrayList<StockGroupDTO>();
+        try {
+            Connection conn = null;
+            String query = "select * from tblstockgroup";
+            System.out.println("select * from tblstockgroup--->>>" + query);
+            conn = DatabaseConnection1.GetConnection();
+
+            PreparedStatement preparedStmt = conn.prepareStatement(query);
+            ResultSet resultSet = preparedStmt.executeQuery();
+            while (resultSet.next()) {
+                StockGroupDTO stockGroupDTO = new StockGroupDTO();
+                stockGroupDTO.setStockGroupID(resultSet.getInt("sg_id"));
+                stockGroupDTO.setStockGroupName(resultSet.getString("sg_name"));
+                stockGroupDTO.setStockGroupAlias(resultSet.getString("sg_alias"));
+                stockGroupDTO.setStockGroupUnder(resultSet.getString("sg_under"));
+                stockGroupDTOList.add(stockGroupDTO);
+            }
+
+        } catch (SQLException ex) {
+            Logger.getLogger(StockGroupDAO.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return stockGroupDTOList;
+    }
+}

@@ -1,0 +1,2761 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<AdSuMuDi>
+
+
+<LedgerList><Ledger>
+    <Name>P. BOARD</Name>
+    <Under>Sales Account</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>NAMO FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>URALIKANCHAN</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo>27590999257C</SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Output Vat @12.5%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Excise Duty @12.0%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Ed Cess @2.0%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>HEd Cess @1.0%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>CST @0.0%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Round Off</Name>
+    <Under>Indirect Expenses</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>SUPERB INTERIORS PVT. LTD</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>S. NO. 255/1, HINJEWADI, PUNE -411027</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo>27460351611C</SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>MDF</Name>
+    <Under>Sales Account</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>A.P.ENTERPRISES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>S.NO.30,2/A KONDHWA BADRUK PUNE 411048</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>WOOD CREATION QUADRI FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SR NO 27/15/BRUHANI INDUSTRIAL ESTATE NEAR ROSS BOILER KONDHWA BK, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>DEVIKKESH PLYMATE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>321/2, M. PHULE PETH, TIMBER MARKET ROAD, PUNE - 411042</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>GOOD FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>KONDHWA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>DELUXE FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SAHYADRI NAGAR, BHANDUP (W) MUMBAI 78</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>KANKARIYA WOOD FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>MAHADEVNAGAR, KHARADI, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SURESH PLYWOOD AND HARDWARE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PIMPRI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>DINESH INDUSTRIES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>A/88, SHENDRA FIVE STAR MIDC, AURANGABAD</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>NEW SHREE KRISHNA FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PUNE SOLAPUR ROAD URALIKANCHAN PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>KANHAIYA FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>GAT NO. 457/53, ADARSHNAGAR, MOSHI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SHREEJI INDUSTIRES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO 270 TO 11/66, SAMBHAJI COLONY, TIMBER AREA, NORTH SHIVAJI NAGAR, SANGLI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>NEW LOOK ENTERPRISES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>KONDHWA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>GOLDEN FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SOLAPUR</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>HI TECH ENGINEERS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>GAT NO. 233, 13KM STONE, NEAR CONCEPT LAB, PAITHAN ROAD, AURANGABAD</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SHRI FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO. A79, MIDC, SHRIRAMPUR</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>R.K. INOVATTIVE DOORS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>GAT NO 114/3 &amp; 115/4, OPP MOTHERCARE PACKERS, OFF NASHIK HIGHWAY, NEAR OM LOGISTIC, A/P CHIMBILI, TAL KHED, DIST PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SAIRAM FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>URALIKANCHAN</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>KOOK KITCHEN CONCEPTS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO. 4, S. NO 28, DAMODARNAGAR, OPP. HSG. ENG., KHARADI, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>CAREFINE WOODWORKS PVT. LTD.</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO 8, GAT NO 906, SANASWADI, TAL- SHIRUR, PUNE -412206</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>OM TRADERS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>AT POST JAULKE, DINDORI, DIST NASIK</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>RAJWOOD FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>AT POST VITA, DIST SANGLI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>HARIOM WOOD FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>KHARADI, PUNE -14</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>CLASSIC WOOD FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>GAT NO 15, NAREGAON, NEAR CHIKHALTHANA MIDC, AURANGABAD</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>WOOD MASTER</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>KONDHWA, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SWARAJ ENTERPRISES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO. C2, OPP. DYNAMICS DAIRY, MIDC, BARAMATI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SHREE SWAMI SAMARTH INDUSTRIES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SINNER</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>NOTCH FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SR NO 77/4, VISHNUMALTI, SHIVNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SHRI HARI FURNITURE WORKS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>GAVATE WADI, THANE BELAPUR ROAD, DIGHA, AIROLI, NAVI MUMBAI.</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SAPTASHRINGI INDUSTRIES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>MIDC, WALUJ, AURANGABAD</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>PRESIZE FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>33/2, LAGADMALA, NEAR LOKMAT BHAVAN, VADGAON KHURD, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>S. R. FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>NANDED PHATA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>FURNITURE SANKUL</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>S. NO 30, LAXMI IND. ESTATE, NARHE, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>MATOSHREE FABARICETION</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>VADE BOLAI ROAD, KESNAND</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>PIRAMID ENTERPRISES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>VADGAON DHAYRI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>BHAKTI FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>THANE (MUMBAI)</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>PAPPUS INTEL FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>KONDHWA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>PARAMOUNT SALES CORPORATION</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO 62/2, KAWTHA ROAD, KHAIRY VILLAGE, KAMPTEE, NR. OCTRAI OFFICE, DIST NAGPUR</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>JAIN TIMBER AND PLYWOOD (P) LTD</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO.82, NEW TIMBER MARKET,  PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Ed Cess @1.0%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>HEd Cess @2.0%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>BEAUTY FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>JALANA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>RONAK INDUSTIRES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>GUDDHI, OUTSIDE OCTRAI LIMIT, AKOLA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Output Vat @12.57%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>EURO WOOD MAKERS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SHOP NO 8, KHAN COMPOUND, NR SHANBAR HOTEL, DHANUGAON, NALASOPARA, THANE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>ECO FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>33/2, LAGADMALA, NEAR LOKMAT BHAWAN, VADGAON KHURD, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Output Vat @0.0%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>CST @12.5%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>CHINTAMANI ALLUMINIUM AND GLASS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>VARDHMAN COMPLEX, BHAGWAN MAHAVIR CHOWK, WALUJ MIDC, AURANGABAD</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SURYA ENTERPRISES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>S.NO 78, DANGAT INDUSTIRAL ESTATE, SHIVANE, PUNE 411023</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>NIRANJAN PLYWOOD</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SUYOJIT TRADE CENTER, OPP RAJIV GANDHI BHA, SHRIRAMPUR ROAD, NASIK</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>KAMAL SALES,</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>NANDRA, DIST BULDHANA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>ADITYA ALLUMINIUM AND GLASS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO 37, SHOP NO 7&amp; 8, GURUKRUPA COMPLEX, ASHOKNAGAR, AURANGABAD</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>JAMTHANI TRADERS PVT. LTD.</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>S. NO. 35/A/1/3, PARIHARNAGAR, RAHATANI PHATA, KALEWADI, PIMPRI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>VIMAL ENTERPRISES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>3, INDUSTIREAL EASTATE, SINGNAL CAMP, NEAR ASHTVINAYAK MANDIR, LATUR</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>JOGRA INDUSTIRES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>K-152, MIDC WALUJ, AURANGABAD</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SARA FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>MITHA NAGAR, KONDHWA, 48</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>MEERA PLYLAM</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO. 9, S.NO . 6/1/2/2, KATRAJ SASWAD BYPASS, NEXT TO BPCL, URALI DEVACHI 412308</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SWASTIK INDUSTRIES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>LAKETOWN, BIBWEWADI, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>UMA GLASS ALLUMINIUM</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO C270, SHOP NO 16, UDHYOG BHARTI COMPLEX, OPP. TIRUPATI HOSPITAL, MIDC, WALUJ, AURANGABAD</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>VAISHO INDUSTRIES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>VAISHNAVI, VIDYA NAGAR, KATRAJ KONDHWA ROAD, KATRAJ</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>GAYATRI FURNITURE WAGHOLI</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PUNE NAGAR ROAD, PANMALA, WAGHOLI, PUNE 412207</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>B. BOARD</Name>
+    <Under>Sales Account</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Excise Duty @0.0%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Ed Cess @0.0%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>HEd Cess @0.0%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>JAYDATTA ALLUMINIUM</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SANGLI ROAD,SAHAKAR NAGAR,ICHALKARNGI,DIST-KOLHAPUR</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>DESIGNER ELEMENTS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>TIMBER MARKET, PUNE 42</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>GOKUL TIMBER &amp; FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>AT POST KASBE DIGRAJ, DIST SANGLI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>JAY CONSTRUCTION COMPANY</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>DEHU ROAD</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>P.S. DIESEL &amp; SPARES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>KATRAJ KONDHWA ROAD, KATRAJ</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>CREATIVE SALES CORPORATION</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PISOLI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>FURNITURE HOUSE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>OPP. RELIANCE PETROL PUMP,AAMGAON ROAD, GONDIA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>PAYAL DECOR,</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>katraj kondhwa road kondhwa pune</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>RESONABLE FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>BEED BYPASS, AURANGABAD</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>BALAJI SALES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>RASHIN</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>RAWAT BROTHERS FURNITURE PVT LTD\</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>GAT NO486/487,KELAWADE, P.B. HIGHWAY,TAL BHOR, DIST PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>RAWAT BROTHERS FURNITURE PVT LTD</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>RISHABH PLY</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>MARKET YARD, HIDE PARK, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>WANARE FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>MAIN ROAD,NEAR PANJAB NATIONAL BANK, PUSAD, DIST YAWATMAL</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Ed Cess @2.02%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>HEd Cess @0.98%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Ed Cess @1.95%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>HEd Cess @1.04%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>NAMOH DOORS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>S R NO 33/2/A,PIRANGUT, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>HEd Cess @0.99%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Ed Cess @2.01%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>HEd Cess @1.01%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Ed Cess @1.99%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Excise Duty @12.01%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>HEd Cess @0.95%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>SHREE KITCHEN</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SR NO 5/3, DATTANAGAR, NEAR SANGIVANI HOSPITAL, AMBEGAON KHURDA, PUNE 46</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>gayatri furniture</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>uralikanchan</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>GAYATRI FURNITURE (URALI KANCHAN)</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>URALI KANCHAN</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Output Vat @12.48%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>SWASTIK ENTERPRISES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO A-108, SHENDRA MIDC, JALANA ROAD, AURANGABAD 431 001</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Excise Duty @10.91%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Ed Cess @0.2%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Excise Duty @11.99%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Ed Cess @2.11%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>HEd Cess @1.05%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Ed Cess @2.03%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>ZIAD FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SOLAPUR</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SUKH SHANTI FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>NEAR RELIANCE PETROL PUMP BORADEMALA SHIRUR</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SHAKTI TIMBER</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PUNE BANGLORE ROAD, SHIRWAL</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>AKSHARESH INDUSTRIES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>D/3, ACRE, KOTHARI COMPAUND NO. 2, MANPADA, THANE (W) 400 607</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>HEd Cess @1.02%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>WUD TEK</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>BEHIND KAMDAR PETROL PUMP, OSMANPURA, MAIN ROAD, LATUR 413512</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>OM FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>KESNAND</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>AVTAR INTERIORS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO 9,BORUDE MALA, BALIKA ASHRAM ROAD,AHMEDNAGAR 414003</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>OMEGA CONCEPTS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO 4, SR NO 28,DAMODARNAGAR,KHARADI, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>DINESH INDUSTRIES,</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>JALGAON</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>ARIHANT FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>THANE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>S. B. NADAF &amp; SONS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>NEAR SWAMI SAMARTH TEMPLE, AKKALKOT</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SPACE MODULER &amp; INTERIORS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>ASHOK MANDORE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>BANER (C/O CAREFINE WOOD WORKS PVT LTD. SANASWADI)</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>RAJ FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>AT POST VITA, DIST SANGLI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>APSARA INDUSTIRES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>72/2/A, AKAWTHA ROAD, KHAIRY VILLAGE, NEAR KAMPTEE OCTRAI OFFICE KAMPTEE 441 002</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>PURNIMA PLYWOOD CENTER</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>JOSHI MARKET,ACHALPUR, PARATWADA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SATPUTE CONTRACTOR</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Excise Duty @12.5%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Excise Duty @12.51%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>CARE DECOR</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>C_94 MIDC, WALUJ, AURANGABAD 431136</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Excise Duty @12.49%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Output Vat @12.51%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Output Vat @12.49%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Excise Duty @12.53%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>CHAFEKER ENGINEERING PVT LTD</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SR NO 240,RAJEEV GANDHI IT PARK, HINJEWADI, TAL MULSHI, DIST PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>AMBARAM HIRARAM PAWAR</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>PIRAMID</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>D.P. ROAD, AUNDH, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>aditya plast</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>m 167 midc jalgaon.</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>DINESH METAL INDUSTRIES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SHENDRA MIDC, AURANGABAD</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>R. D. NAGUL AND ASSOCIATES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>2ND FLOOR, DATTAPRASAD APARTMENT, SADASHIV PETH, PUNE 411 030</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>V.K.SANGHAVI &amp; SONS.</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>95,NEW TIMBER MARKET,BHAWANI PETH PUNE.411042</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>CLAD WELL SOLUTIONS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SR NO 121, HISSA NO. 2+3, KHANDVE NAGAR, LOHEGAON, PUNE 47</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>NEW ART FURNITURE &amp; INTERIORS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>KONDHWA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>DEE DECOR FURNITURE &amp; INTERIOR</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SR NO 11/5, OPP. RELIANCE MART, KHARADI, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SHREEJI INDUSTIRES,</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>TIMBER AREA, SANGLI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>JAINAM INTERIOR SOLUTIONS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>JAMTHANI PLY LAM</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO 157/D-3, MUMBAI PUNE ROAD, PIMPRI PUNE 411 018</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>GNET TRADELINKS PVT LTD</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>R-724-B,TTC INDUSTRIAL AREA, MIDC, RABALE, NAVI MUMBAI 400 701</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>UNITED ENTERPRISES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>KONDHWA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>MUKUND PLYWOOD &amp; HARDWARE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>GANGA COMPLEX, JAIL ROAD, YERWADA, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>PARALLAX DECOR PVT LTD</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>115, ACME INDL. PARK, I. B. PATEL ROAD, NEAR WESTERN EXPRESS HIGHWAY, GOREGAON, (E) MUMBAI 400 063</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>R.K. INOVATTIVE DOORS,</Name>
+    <Under>Sundry Creditors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>GAT NO 114/3 &amp; 115/4, OPP MOTHERCARE PACKERS, OFF NASIK HIGHWAY, NEAR OM LOGISTICS, A/P CHIMBILI, TAL - KHED, DIST- PUNE 410 501</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SHANDAR MODULER SYSTEMS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>GAT NO 100, PLOT NO 11,12,13, HICLIFFINDUSTRILA ESTATE, KESNAND, PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>TRIMURTI GLASSES &amp; FURNITURE WORKS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>NAGAR ROAD, WAGHOLI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SHREERAM INDUSTRIES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>GAT NO 679/2/2, PLOT NO 13/8, CHAKAN-ALANDI ROAD, KURALI, CHAKAN 410 501</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>ASHIRWAD AGENCIES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>GODOWN NO 1, H NO 2056, PUNE SASWAD ROAD, FURSUNGI, DIST PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>NAVKAR WOOD</Name>
+    <Under>Sundry Creditors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>A-18, BARDAN GALLI, JANGLESHWAR MANDIR ROAD, ASALPHA, GHATKOPAR, (W) 48</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Excise Duty @12.52%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>INDIA FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO 117/7, OPP MIDC, AHMEDNAGAR</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>PUSHPAK PLY</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SURVEY NO 1, HANDEWADI, NEAR MAYURI WEIGH BRIDGE, DIST PUNE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>LALIT HOME APPLIANCES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>GURUDWARA CHAWK, G.G. ROAD, NANDED MAHARASHTRA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>M/S TULSI ENTERPRISES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>2</DebitOrCredit>
+    <Address>PUNCH MANDIR ROAD, HAZARIBAG, JHARKHAND</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>CST @2.0%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>DESARCH PANTACLE PVT LTD</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>504, VILLAGE KHONDLE (KUDUS), TALUKA WADA, THANE</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>MEERA PLYLAM,</Name>
+    <Under>Sundry Creditors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO 84, NEW TIMBER MARKET, BHAWANI PETH, PUNE 411 042</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>BHOSALE INDUSTRIES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>AT POST JAKHINWADI, TAL KARAD, DIST SATARA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>IRSHAD MULLA</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>DARBAR GALLI, BEHIND SP BANGLOW, BIJAPUR 586101 (KARNATAKA)</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>GAURAV ENTERPRISES</Name>
+    <Under>Sundry Creditors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO 1660, HOUSE NO 9B, BAGBERA, JAMSHEDPUR EAST, SINGHBUM</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>K. B. ENTERPRISES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SOLAPUR</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SGP WOOD WORKING</Name>
+    <Under>Sundry Creditors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SR NO 37/2/2, BEHIND ANGRAJ DHABA, KONDHWA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>HEd Cess @0.05%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>R.S. FURNITURE</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SATNAMI NAGAR CHOICK BACK SAIT NILKANTH APPARTMENT LAKARGANJ, NAGPUR -
+8</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Shri Swami Samarth Industries</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>MIDC, 
+Sinner</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>THE POONA SAW MILLS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>126, NEW TIMBER MARKET, OPP. SONAWANE HOSPITAL, PUNE 411 002</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>GANPATI TRADERS</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>PLOT NO 1660, H. NO. 9B, ROOM NO 2, BAGHBERA, JAMSHEDPUR, EAST SINGHBUM, JHARKHAND 831002</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>SWASTIK DOORS,</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>GAT NO 228, DEHU RASTA, BARNEVASTI, MOSHI, PCMC, PUNE 412 105</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Output Vat @12.52%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>M/S NIB VINIMAY PRIVATE LIMITED</Name>
+    <Under>Sundry Creditors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>OFFICE NO 322, 3RD FLOOR, ASHIANA TRADE CENTER, ADITYAPUR, NA, JAMSHEDPUR, SARAIKELA 832109</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>PLY AGE</Name>
+    <Under>Sundry Creditors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>321/5, DEEP BANGALA, SHANTINAGAR SOCIETY, TIMBER MARKET, PUNE 42</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>ADITYA INDUSTIRES</Name>
+    <Under>Sundry Creditors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>AIROLI SECTOR 1, NAVI MUMBAI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>INDIAN TIMBERS</Name>
+    <Under>Sundry Creditors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>AIROLI NAKA, SECTOR 1, BELAPUR ROAD, NAVI MUMBAI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>G. S. INDUSTIRES</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>LATUR</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>M/S CREATIVE COMMOSALE PRIVATE LIMITED</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>OFFICE NO 322(PART), 3RD FLOOR, ASHIANA TRADE CENTER, ADITYAPUR, JAMSHEDPUR, SARAIKELA</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>M/S PARVATI SAW MILL</Name>
+    <Under>Sundry Debtors</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>SAGAON PHATA, AT POST SAGAON, TAL SHIRALA, DIST SANGLI</Address>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+
+</LedgerList>
+
+
+<StockItemList><StockItem>
+    <Name>2.44 x 1.22 x 9.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.22</Width>
+    <Thickness>9.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.44 x 1.84 x 9.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.84</Width>
+    <Thickness>9.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.44 x 1.22 x 12.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.22</Width>
+    <Thickness>12.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.44 x 1.22 x 17.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.22</Width>
+    <Thickness>17.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.44 x 1.22 x 25.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.22</Width>
+    <Thickness>25.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.44 x 1.84 x 12.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.84</Width>
+    <Thickness>12.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.44 x 1.84 x 17.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.84</Width>
+    <Thickness>17.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.44 x 1.84 x 25.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.84</Width>
+    <Thickness>25.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.4 x 1.2 x 8mm</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.22</Width>
+    <Thickness>8.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.8 x 1.8 x 9mm</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.75</Length>
+    <Width>1.84</Width>
+    <Thickness>9.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.8 x 1.8 x 12mm</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.75</Length>
+    <Width>1.84</Width>
+    <Thickness>12.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.8 x 1.8 x 17mm</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.75</Length>
+    <Width>1.84</Width>
+    <Thickness>17.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.4 x 1.2 x 15mm</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.22</Width>
+    <Thickness>15.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.4 x 1.2 x 4mm</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.22</Width>
+    <Thickness>4.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.4 x 1.2 x 6mm</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.22</Width>
+    <Thickness>6.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.4 1.2 18mm</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.22</Width>
+    <Thickness>18.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>Sq. Mt.</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.44  1.84  17.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.84</Width>
+    <Thickness>17.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>simple</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.44  1.84  25.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.84</Width>
+    <Thickness>25.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>simple</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.44  4.00  17.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>4.0</Width>
+    <Thickness>17.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>simple</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.44  4.00  25.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>4.0</Width>
+    <Thickness>25.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>simple</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.75  1.84  17.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.75</Length>
+    <Width>1.84</Width>
+    <Thickness>17.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>simple</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.75  1.84  25.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.75</Length>
+    <Width>1.84</Width>
+    <Thickness>25.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>simple</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.75  4.00  17.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.75</Length>
+    <Width>4.0</Width>
+    <Thickness>17.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>simple</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.75  4.00  25.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.75</Length>
+    <Width>4.0</Width>
+    <Thickness>25.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>simple</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.44 x 1.84 x 17.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.84</Width>
+    <Thickness>17.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>simple</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.44 x 1.84 x 8.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.44</Length>
+    <Width>1.84</Width>
+    <Thickness>8.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>simple</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.75 x 1.84 x 17.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.75</Length>
+    <Width>1.84</Width>
+    <Thickness>17.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>simple</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>2.75 x 1.84 x 8.00</Name>
+    <Under>FinishedGroup</Under>
+    <Alias/>
+    <Length>2.75</Length>
+    <Width>1.84</Width>
+    <Thickness>8.0</Thickness>
+    <Rate>0.0</Rate>
+    <Unit>simple</Unit>
+    <OpeningBalance>0.0</OpeningBalance>
+</StockItem>
+
+</StockItemList>
+
+<UnitOfMeasureList><UnitOfMeasure>
+    <Type>simple</Type>
+    <Symbol>Sq.Ft</Symbol>
+    <FormalName>Sq.Ft</FormalName>
+    <NoDecimalPlaces>0</NoDecimalPlaces>
+</UnitOfMeasure>
+<UnitOfMeasure>
+    <Type>simple</Type>
+    <Symbol>Sq. Mt.</Symbol>
+    <FormalName>Sq. Mt.</FormalName>
+    <NoDecimalPlaces>3</NoDecimalPlaces>
+</UnitOfMeasure>
+
+</UnitOfMeasureList>
+
+
+
+
+
+
+
+</AdSuMuDi>

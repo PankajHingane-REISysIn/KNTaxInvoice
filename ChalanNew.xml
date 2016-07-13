@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<AdSuMuDi>
+
+
+<LedgerList><Ledger>
+    <Name>sale ledger</Name>
+    <Under>60</Under>
+    <Alias>SA</Alias>
+    <OpeningBalance>100000.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address>Pune</Address>
+    <ContactNo>1234567890</ContactNo>
+    <CreditLimit>1234567890</CreditLimit>
+    <EmailID>asdf@sdf.dfdf</EmailID>
+    <IncomeTaxNo>12345qwert</IncomeTaxNo>
+    <SaleTaxNo>12345qwert</SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Purchase Ledfger</Name>
+    <Under>61</Under>
+    <Alias>PA</Alias>
+    <OpeningBalance>1000.0</OpeningBalance>
+    <DebitOrCredit>2</DebitOrCredit>
+    <Address>Pune</Address>
+    <ContactNo>12234</ContactNo>
+    <CreditLimit>12234</CreditLimit>
+    <EmailID>4@sfdd.dsff</EmailID>
+    <IncomeTaxNo>asdfg12345</IncomeTaxNo>
+    <SaleTaxNo>asdfg12345</SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Cash in hnad</Name>
+    <Under>71</Under>
+    <Alias/>
+    <OpeningBalance>1000.0</OpeningBalance>
+    <DebitOrCredit>2</DebitOrCredit>
+    <Address>2kkkkk</Address>
+    <ContactNo/>
+    <CreditLimit/>
+    <EmailID/>
+    <IncomeTaxNo>qwert</IncomeTaxNo>
+    <SaleTaxNo>qwert</SaleTaxNo>
+</Ledger>
+
+</LedgerList>
+
+<StockGroupList><StockGroup>
+    <Name>Primary</Name>
+    <Under>0</Under>
+    <Alias/>
+</StockGroup>
+<StockGroup>
+    <Name>stk grp</Name>
+    <Under>1</Under>
+    <Alias/>
+</StockGroup>
+
+</StockGroupList>
+
+<StockItemList><StockItem>
+    <Name>stk1</Name>
+    <Under>2</Under>
+    <Alias/>
+    <Length>0.0</Length>
+    <Width>0.0</Width>
+    <Thickness>0.0</Thickness>
+    <Rate>100.0</Rate>
+    <Unit>1</Unit>
+    <OpeningBalance>500.0</OpeningBalance>
+</StockItem>
+<StockItem>
+    <Name>stk2</Name>
+    <Under>2</Under>
+    <Alias/>
+    <Length>0.0</Length>
+    <Width>0.0</Width>
+    <Thickness>0.0</Thickness>
+    <Rate>200.0</Rate>
+    <Unit>1</Unit>
+    <OpeningBalance>100.0</OpeningBalance>
+</StockItem>
+
+</StockItemList>
+
+<UnitOfMeasureList><UnitOfMeasure>
+    <Type>2</Type>
+    <Symbol>s</Symbol>
+    <FormalName>s</FormalName>
+    <NoDecimalPlaces>2</NoDecimalPlaces>
+</UnitOfMeasure>
+
+</UnitOfMeasureList>
+
+
+
+
+<Chalan>
+    <receiptNo>15</receiptNo>
+    <CashLedger>Cash in hnad</CashLedger>
+    <SaleLedger>sale ledger</SaleLedger>
+    <Date>2014-02-02</Date>
+    <Note>TDM</Note>
+    <DispatchDocNo>125</DispatchDocNo>
+    <DispatchDocThrough>001</DispatchDocThrough>
+
+<StockItemTransactionList><StockItemTransaction>
+    <Name>stk1</Name>
+    <Length>0.0</Length>
+    <Width>0.0</Width>
+    <Thickness>0.0</Thickness>
+    <Quantity>3.0</Quantity>
+    <SqFeet>0.0</SqFeet>
+    <Rate>0.0</Rate>
+    <Amount>0.0</Amount>
+</StockItemTransaction>
+<StockItemTransaction>
+    <Name>stk2</Name>
+    <Length>0.0</Length>
+    <Width>0.0</Width>
+    <Thickness>0.0</Thickness>
+    <Quantity>23.0</Quantity>
+    <SqFeet>0.0</SqFeet>
+    <Rate>0.0</Rate>
+    <Amount>0.0</Amount>
+</StockItemTransaction>
+</StockItemTransactionList>
+</Chalan>
+
+
+</AdSuMuDi>

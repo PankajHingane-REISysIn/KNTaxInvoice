@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<AdSuMuDi>
+
+
+<LedgerList><Ledger>
+    <Name>Sale ledger</Name>
+    <Under>Sales Account</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Cash Ledger</Name>
+    <Under>Cash In Hand</Under>
+    <Alias/>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address/>
+    <ContactNo/>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID/>
+    <IncomeTaxNo/>
+    <SaleTaxNo/>
+</Ledger>
+<Ledger>
+    <Name>Output Vat @4.16%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Round Off</Name>
+    <Under>Indirect Expenses</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Output Vat @5.0%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Output Vat @0.0%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+<Ledger>
+    <Name>Output Vat @1.0%</Name>
+    <Under>Duties and Taxes</Under>
+    <Alias> </Alias>
+    <OpeningBalance>0.0</OpeningBalance>
+    <DebitOrCredit>1</DebitOrCredit>
+    <Address> </Address>
+    <ContactNo> </ContactNo>
+    <CreditLimit>0.0</CreditLimit>
+    <EmailID> </EmailID>
+    <IncomeTaxNo> </IncomeTaxNo>
+    <SaleTaxNo> </SaleTaxNo>
+</Ledger>
+
+</LedgerList>
+
+
+
+
+<SaleVoucherList><SaleVoucher>
+    <ReceiptNo>3</ReceiptNo>
+    <CashLedger>Cash Ledger</CashLedger>
+    <SaleLedger>Sale ledger</SaleLedger>
+    <Date>2014-04-26</Date>
+    <Note>324</Note>
+    <DispatchDocNo>32</DispatchDocNo>
+    <DispatchDocThrough>3</DispatchDocThrough>
+    <Amount>110880.0</Amount>
+    <VatRate>1.0</VatRate>
+    <VatAmount>1108.8</VatAmount>
+    <LessBillAmount>0.0</LessBillAmount>
+    <Transport>0.0</Transport>
+    <PaymentMode/>
+    <FinalAmount>111988.8</FinalAmount>
+
+<StockItemTransactionList><StockItemTransaction>
+    <Name>Bagaas 12.0 * 10.0 * 11.00 Black 13 15</Name>
+    <Categary>Bagaas</Categary>
+    <Length>12.0</Length>
+    <Width>10.0</Width>
+    <Thickness>11.0</Thickness>
+    <Color>Black</Color>
+    <FinishType>13</FinishType>
+    <BoardType>15</BoardType>
+    <Nos>3.0</Nos>
+    <Quantity>360.0</Quantity>
+    <SqFeet>0.0</SqFeet>
+    <Rate>100.0</Rate>
+    <Amount>36000.0</Amount>
+</StockItemTransaction>
+<StockItemTransaction>
+    <Name>Bagaas 12.0 * 10.0 * 11.00 Brass 13 15</Name>
+    <Categary>Bagaas</Categary>
+    <Length>12.0</Length>
+    <Width>10.0</Width>
+    <Thickness>11.0</Thickness>
+    <Color>Brass</Color>
+    <FinishType>13</FinishType>
+    <BoardType>15</BoardType>
+    <Nos>324.0</Nos>
+    <Quantity>38880.0</Quantity>
+    <SqFeet>0.0</SqFeet>
+    <Rate>1.0</Rate>
+    <Amount>38880.0</Amount>
+</StockItemTransaction>
+<StockItemTransaction>
+    <Name>Bagaas 12.0 * 10.0 * 11.00 Black 13 15</Name>
+    <Categary>Bagaas</Categary>
+    <Length>12.0</Length>
+    <Width>10.0</Width>
+    <Thickness>11.0</Thickness>
+    <Color>Black</Color>
+    <FinishType>13</FinishType>
+    <BoardType>15</BoardType>
+    <Nos>3.0</Nos>
+    <Quantity>360.0</Quantity>
+    <SqFeet>0.0</SqFeet>
+    <Rate>100.0</Rate>
+    <Amount>36000.0</Amount>
+</StockItemTransaction>
+</StockItemTransactionList>
+</SaleVoucher>
+</SaleVoucherList>
+<TotalSalesAmount>111988.80
+</TotalSalesAmount>
+
+
+
+
+
+
+</AdSuMuDi>

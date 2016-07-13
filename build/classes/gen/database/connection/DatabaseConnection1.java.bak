@@ -1,0 +1,160 @@
+package gen.database.connection;
+
+import java.sql.*;
+import java.util.Properties;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+public class DatabaseConnection1 {
+
+//    public static String databaseClassName = "com.mysql.jdbc.Driver";
+//    public static String instantURL = "jdbc:mysql://localhost";
+//    public static String portNo = "3308";
+//    public static String databaseName = "aj";
+//    public static String userName = "root";
+//    public static String password = "";
+    public static String databaseClassName = "com.mysql.jdbc.Driver";
+    public static String instantURL = "jdbc:mysql://localhost";
+    public static String portNo = "3308";
+    public static String databaseName = "aj11";
+    public static String userName = "root";
+    public static String password = "adm";
+    public String framework = "embedded";
+
+    public DatabaseConnection1() {
+	System.out.println("");
+    }
+
+    public static Connection GetConnection() {
+	Connection conn = null;
+	try {
+	    if (gen.dto.Constants.DATABASE_SERVER.equals("com.mysql.jdbc.Driver")) {
+		databaseClassName = "com.mysql.jdbc.Driver";
+		instantURL = "jdbc:mysql://localhost";
+		portNo = "3308";
+		databaseName = "aj1";
+		userName = "root";
+		password = "adm";
+
+		if ("1".equalsIgnoreCase(gen.dto.Constants.COMPANYDETAILS_DATABASE_CALLING)) {
+		    databaseName = "companies_details";
+//		    databaseName = "atul17";
+		    System.out.println("COMPANYDETAILS_DATABASE_CALLING   11111111  -------- ++++++++++ " + databaseName);
+		} else if (!gen.other.CompanySettings.CompanysSettings.CURRENT_DATABASE_Company_Settings.isEmpty()) {
+		    databaseName = gen.other.CompanySettings.CompanysSettings.CURRENT_DATABASE_Company_Settings;
+		    System.out.println("Check in the gertFuncton -------- ++++++++++ " + databaseName);
+		}
+
+		Class.forName(databaseClassName);
+		conn = DriverManager.getConnection(instantURL + ":" + portNo + "/" + databaseName, userName, password);
+
+	    } else {
+
+		databaseClassName = "org.hsqldb.jdbcDriver";
+		instantURL = "jdbc:hsqldb:data/";
+//		instantURL = "jdbc:hsqldb:EmptyDatabase/";
+//		instantURL = "jdbc:hsqldb:";
+		databaseName = "companies_details";
+//		databaseName = "first";
+		userName = "sa";
+		password = "";
+		String key = "604a6105889da65326bf35790a923932";
+		String getColumnName = "false";
+
+		if ("1".equalsIgnoreCase(gen.dto.Constants.COMPANYDETAILS_DATABASE_CALLING)) {
+		    databaseName = "companies_details";
+		    System.out.println("COMPANYDETAILS_DATABASE_CALLING   11111111  -------- ++++++++++ " + databaseName);
+		} else if (!gen.other.CompanySettings.CompanysSettings.CURRENT_DATABASE_Company_Settings.isEmpty()) {
+		    databaseName = gen.other.CompanySettings.CompanysSettings.CURRENT_DATABASE_Company_Settings;
+//		    databaseName = "first";
+		    System.out.println("Check in the gertFuncton -------- ++++++++++ " + databaseName);
+		}
+
+		Class.forName(databaseClassName).newInstance();
+		Properties props = new Properties();
+//		databaseName = "companies_details";
+//		databaseName = "first";
+//		databaseName = "unnatisales";
+		System.out.println("Database NMae ----------" + databaseName);
+
+		props.put("user", userName);
+		props.put("password", password);
+		props.put("jdbc.strict_md", "false");
+		props.put("jdbc.get_column_name", getColumnName);
+		conn = DriverManager.getConnection(instantURL + databaseName+"; crypt_key="+key+";crypt_type=AES", props);
+//		conn = DriverManager.getConnection(instantURL + databaseName, props);
+	    }
+	} catch (InstantiationException ex) {
+	    Logger.getLogger(DatabaseConnection1.class.getName()).log(Level.SEVERE, null, ex);
+	} catch (IllegalAccessException ex) {
+	    Logger.getLogger(DatabaseConnection1.class.getName()).log(Level.SEVERE, null, ex);
+	} catch (SQLException ex) {
+	    Logger.getLogger(DatabaseConnection1.class.getName()).log(Level.SEVERE, null, ex);
+	} catch (ClassNotFoundException ex) {
+	    Logger.getLogger(DatabaseConnection1.class.getName()).log(Level.SEVERE, null, ex);
+	}
+	return conn;
+    }
+//    public static Connection GetConnection() {
+//	System.out.println("GetConnection --------------------      " + gen.dto.Constants.COMPANYDETAILS_DATABASE_CALLING);
+//	System.out.println("GetConnection 44444444 --------------------      " + gen.other.CompanySettings.CompanysSettings.CURRENT_DATABASE_Company_Settings);
+//
+//
+//	Connection conn = null;
+//	if ("1".equalsIgnoreCase(gen.dto.Constants.COMPANYDETAILS_DATABASE_CALLING)) {
+//	    databaseName = "companies_details";
+//	    System.out.println("COMPANYDETAILS_DATABASE_CALLING   11111111  -------- ++++++++++ " + databaseName);
+//	} else if (!gen.other.CompanySettings.CompanysSettings.CURRENT_DATABASE_Company_Settings.isEmpty()) {
+//	    databaseName = gen.other.CompanySettings.CompanysSettings.CURRENT_DATABASE_Company_Settings;
+//	    System.out.println("Check in the gertFuncton -------- ++++++++++ " + databaseName);
+//	}
+//	//	else {
+//	//	    databaseName = "aj1";
+//	//	}
+//	try {
+//	    //   databaseName = "aj11";
+//	    System.out.println("Selectede DAtabase. .......>>>>>>>>>>." + databaseName);
+//	    Class.forName(databaseClassName);
+//	    conn = DriverManager.getConnection(instantURL + ":" + portNo + "/" + databaseName, userName, password);
+//	    //	    conn = DriverManager.getConnection(instantURL + ":" + portNo, userName, password);
+//	} catch (Exception e) {
+//	    e.printStackTrace();
+//	}
+//
+//	return conn;
+//
+//    }
+//	catch (SQLException ex) {
+//	    Logger.getLogger(DatabaseConnection1.class.getName()).log(Level.SEVERE, null, ex);
+//	}
+//	 return conn;
+//    public static Connection GetConnection() {
+//         System.out.println("GetConnection --------------------      "+ gen.dto.Constants.COMPANYDETAILS_DATABASE_CALLING );
+//         System.out.println("GetConnection 44444444 --------------------      "+ gen.other.CompanySettings.CompanysSettings.CURRENT_DATABASE_Company_Settings);
+//	   
+//        
+//	Connection conn = null;
+//	if ("1".equalsIgnoreCase(gen.dto.Constants.COMPANYDETAILS_DATABASE_CALLING)) {
+//	    databaseName = "companies_details";
+//            System.out.println("COMPANYDETAILS_DATABASE_CALLING   11111111  -------- ++++++++++ " + databaseName);
+//	} else if (!gen.other.CompanySettings.CompanysSettings.CURRENT_DATABASE_Company_Settings.isEmpty()) {
+//	    databaseName = gen.other.CompanySettings.CompanysSettings.CURRENT_DATABASE_Company_Settings;
+//	    System.out.println("Check in the gertFuncton -------- ++++++++++ " + databaseName);
+//	}
+////	else {
+////	    databaseName = "aj1";
+////	}
+//	try {
+//	    //   databaseName = "aj11";
+//	    System.out.println("Selectede DAtabase. .......>>>>>>>>>>." + databaseName);
+//	    Class.forName(databaseClassName);
+//	    conn = DriverManager.getConnection(instantURL + ":" + portNo + "/" + databaseName, userName, password);
+////	    conn = DriverManager.getConnection(instantURL + ":" + portNo, userName, password);
+//	} catch (Exception e) {
+//	    e.printStackTrace();
+//	}
+//	
+//        return conn;
+//	
+//    }
+}
